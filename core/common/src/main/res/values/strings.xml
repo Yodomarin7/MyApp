@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_1">Рис с овощами</string>
+    <string name="txt_2">Салат по восточному</string>
+    <string name="txt_3">Рыба с овощами и рисом</string>
+    <string name="txt_4">Тортеллини</string>
+    <string name="txt_5">Зеленый салат</string>
+    <string name="txt_6">Рулеты из ветчины</string>
+
+    <string name="desc_1">Рыба маринованная со специями, лимонным соком, соевым соусом и запечeнная в духовке с лучком, томатами и картошечкой под золотистой майонезно-сырной шубкой</string>
+    <string name="desc_2">Описание Салат по восточному</string>
+    <string name="desc_3">Описание Рыба с овощами и рисом</string>
+    <string name="desc_4">Описание Тортеллини</string>
+    <string name="desc_5">Описание Зеленый салат</string>
+    <string name="desc_6">Описание Рулеты из ветчины</string>
+
+    <string name="back">Назад</string>
+    <string name="account_logo">Я</string>
+    <string name="geo">Локация</string>
+    <string name="unknown">Неизвестный</string>
+
+    <string name="all_menu">Всё меню</string>
+    <string name="salads">Салаты</string>
+    <string name="with_rice">С рисом</string>
+    <string name="with_fish">С рыбой</string>
+
+    <string name="pekarni">"Пекарни\nи кондитерские"</string>
+    <string name="fastfood">Фастфуд</string>
+    <string name="asia">Азиатская кухня</string>
+    <string name="syp">Супы</string>
+
+    <string name="to_bag">Добавить в корзину</string>
+    <string name="again">Ещё раз</string>
+
+    <string name="error">Ошибка, попробуйте ещё раз</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

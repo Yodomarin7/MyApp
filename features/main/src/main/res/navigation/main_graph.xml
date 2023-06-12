@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/startFrg">
+
+    <fragment
+        android:id="@+id/startFrg"
+        android:name="nebur.main.ui.start.StartFrg"
+        android:label="frg_start"
+        tools:layout="@layout/frg_start" >
+        <action
+            android:id="@+id/action_startFrg_to_categoryFrg"
+            app:destination="@id/categoryFrg" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoryFrg"
+        android:name="nebur.main.ui.category.CategoryFrg"
+        android:label="frg_category_frg"
+        tools:layout="@layout/frg_category" >
+        <argument
+            android:name="ctgName"
+            app:argType="string" />
+    </fragment>
+</navigation>
