@@ -24,7 +24,7 @@ class CategoryFrg(
 
 ) : Fragment(R.layout.frg_category) {
 
-    private val vm: CategoryFrgVM by hiltNavGraphViewModels(R.id.main_graph)
+    private val vm: CategoryFrgVM by hiltNavGraphViewModels(R.id.categoryFrg)
     private lateinit var b: FrgCategoryBinding
     private lateinit var n: NavController
 

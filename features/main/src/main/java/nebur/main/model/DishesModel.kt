@@ -10,6 +10,6 @@ data class DishesModel(
     val price: Int,
     val weight: Int,
     val description: String,
-    val image_url: String?,
+    val image_url: String,
     val tegs: List<Tegs>,
 )

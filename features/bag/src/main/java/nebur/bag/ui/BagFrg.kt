@@ -24,12 +24,12 @@ import java.util.Locale
 import javax.inject.Inject
 
 @AndroidEntryPoint
-class BagFrg : Fragment(R.layout.frg_bag) {
+class BagFrg : Fragment(R.layout.frg_bag) {  //Nebur
 
     @Inject
     lateinit var iAppToBag: IAppToBag
 
-    private val vm: BagFrgVM by hiltNavGraphViewModels(R.id.bag_graph)
+    private val vm: BagFrgVM by hiltNavGraphViewModels(R.id.frgBag)
     private lateinit var b: FrgBagBinding
     private lateinit var n: NavController
 

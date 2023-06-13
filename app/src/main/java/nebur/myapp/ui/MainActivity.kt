@@ -72,11 +72,13 @@ class MainActivity : AppCompatActivity() {
                 mFusedLocationClient.lastLocation.addOnSuccessListener { location->
 
                     if (location != null) {
-                        val geocoder = Geocoder(this, Locale.getDefault())
-                        val list = geocoder.getFromLocation(location.latitude, location.longitude, 1)
-                        val locality = list?.get(0)?.locality
-                        Log.e("locality", "locality: $locality")
-                        locality?.let { vm.saveLocality(it) }
+                        try{
+                            val geocoder = Geocoder(this, Locale.getDefault())
+                            val list = geocoder.getFromLocation(location.latitude, location.longitude, 1)
+                            val locality = list?.get(0)?.locality
+                            locality?.let { vm.saveLocality(it) }
+                        }
+                        catch (_: Throwable) { }
                     }
                     else {
                         Log.e("locality", "location == null")

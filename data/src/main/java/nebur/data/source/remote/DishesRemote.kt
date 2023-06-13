@@ -16,7 +16,7 @@ class DishesRemote {
         val price: Int = 0,
         val weight: Int = 0,
         val description: String = "",
-        val image_url: String? = null,
+        val image_url: String = "null",
         val tegs: List<String> = listOf(),
     )
 

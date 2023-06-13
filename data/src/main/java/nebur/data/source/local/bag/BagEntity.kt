@@ -28,6 +28,6 @@ data class BagEntity(
     @ColumnInfo(name = BagEntityArg.NAME) val name: String,
     @ColumnInfo(name = BagEntityArg.PRICE) val price: Int,
     @ColumnInfo(name = BagEntityArg.WEIGHT) val weight: Int,
-    @ColumnInfo(name = BagEntityArg.IMAGE_URL) val imageUrl: String?,
+    @ColumnInfo(name = BagEntityArg.IMAGE_URL) val imageUrl: String,
     @ColumnInfo(name = BagEntityArg.COUNT) val count: Int,
 )

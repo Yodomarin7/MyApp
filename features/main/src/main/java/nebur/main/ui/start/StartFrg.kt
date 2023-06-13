@@ -25,7 +25,7 @@ class StartFrg(
 
 ) : Fragment(R.layout.frg_start) {
 
-    private val vm: StartFrgVM by hiltNavGraphViewModels(R.id.main_graph)
+    private val vm: StartFrgVM by hiltNavGraphViewModels(R.id.startFrg)
     private lateinit var b: FrgStartBinding
     private lateinit var n: NavController
 
